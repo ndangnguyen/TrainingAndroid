@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Register Form"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFFFF"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/etFullname"
+            android:layout_width="0dp"
+            android:text=""
+            android:hint="Full name"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="0dp"
+            android:hint="Email"
+            android:text=""
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="0dp"
+            android:inputType="number"
+            android:text=""
+            android:hint="Phone"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:hint="Gender"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:gravity="center|left"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Male"/>
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Female"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:paddingRight="15dp"
+            android:layout_weight="0.5"
+            android:hint="Position"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:gravity="center|left"
+            android:layout_height="match_parent" />
+        <Spinner
+            android:id="@+id/spPosition"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:paddingRight="15dp"
+            android:hint="Location"
+            android:paddingLeft="5dp"
+            android:layout_weight="0.5"
+            android:textSize="18sp"
+            android:gravity="center|left"
+            android:layout_height="match_parent" />
+        <Spinner
+            android:id="@+id/spLocation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingRight="15dp"
+            android:hint="Language"
+            android:gravity="center|left"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cbEn"
+            android:layout_width="0dp"
+            android:paddingRight="15dp"
+            android:layout_weight="1"
+            android:text="English"
+            android:gravity="center|left"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/cbJp"
+            android:layout_width="0dp"
+            android:paddingRight="15dp"
+            android:layout_weight="1"
+            android:text="Japanese"
+            android:gravity="center|left"
+            android:layout_height="match_parent" />
+        <CheckBox
+            android:id="@+id/cbFr"
+            android:layout_width="0dp"
+            android:paddingRight="15dp"
+            android:layout_weight="1"
+            android:text="French"
+            android:gravity="center|left"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="0dp"
+            android:paddingRight="15dp"
+            android:layout_weight="1"
+            android:text="Apply"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnViewList"
+            android:layout_width="0dp"
+            android:paddingRight="15dp"
+            android:layout_weight="1"
+            android:text="View List"
+            android:gravity="center"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
