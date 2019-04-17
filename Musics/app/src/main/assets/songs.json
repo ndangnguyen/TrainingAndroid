@@ -1,0 +1,52 @@
+{
+    "songs" : [
+        {
+            "title": "25 Minutes",
+            "link" : "25Minutes.mp3"
+        },
+        {
+            "title": "A Better Man",
+            "link" : "A Better Man.mp3"
+        },
+        {
+            "title": "A Groovy Kind Of Love",
+            "link" : "A Groovy Kind Of Love.mp3"
+        },
+        {
+            "title": "A Little Love",
+            "link" : "A Little Love.mp3"
+        },
+        {
+            "title": "A thousand years",
+            "link" : "A thousand years.mp3"
+        },
+        {
+            "title": "All About That Bass",
+            "link" : "All About That Bass.mp3"
+        },
+        {
+            "title": "All By Myself",
+            "link" : "All By Myself.mp3"
+        },
+        {
+            "title": "All My Life",
+            "link" : "All My Life.mp3"
+        },
+        {
+            "title": "All Of Me",
+            "link" : "All Of Me.mp3"
+        },
+        {
+            "title": "Apologize - Timbaland",
+            "link" : "Apologize - Timbaland.mp3"
+        },
+        {
+            "title": "As Long As You Love Me",
+            "link" : "As Long As You Love Me.mp3"
+        },
+        {
+            "title": "Beautiful In White",
+            "link" : "Beautiful In White.mp3"
+        }
+    ]   
+}
